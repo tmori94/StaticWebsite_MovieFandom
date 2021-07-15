@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="this is an example of a meta description.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- setting the viewport for responsive design -->
+  <title>Blue Steel Fandom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="nav-main">
+    <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+    <h1>Blue Steel Fandom</h1>
+  </div>
+
+  <aside class="nav-sidebar">
+    <ul>
+      <!--unordered list-->
+      <li><a href="Home.html">Home</a></li>
+      <!--menu items-->
+      <li><a href="Cast.html">Cast</a></li>
+      <li><a href="Fun-Facts.html">Fun Facts</a></li>
+      <li><span>Gallery</span></li>
+      <li><a href="Shop.html">Shop</a></li>
+    </ul>
+    <div class="languages">
+      <span><img src="img/EN_Flag.png" alt="EN_Flag"></span>
+      <a href="Gallery_IT.html"><img src="img/IT_Flag.png" alt="IT_Flag"></a>
+    </div>
+  </aside>
+
+  <div id="body-js">
+
+    <h3 style="margin-top: 100px; text-align: center; font-family: Arial;">Click on any image to open it Full Screen mode</h3>
+    <h3 style="font-family: Arial; padding-bottom: 0px; text-align: center;">More images coming soon!</h3>
+    <div class="row">
+      <div class="column">
+        <img src="img/Gallery/John_Wayne_Poster_Small.png" alt="Poster with John Wayne" onClick="Open(this)">
+      </div>
+      <div class="column">
+        <img src="img/Gallery/Blue_Steel_Scene_Gun_Small.png" alt="John Wayne points a gun" onclick="Open(this)">
+      </div>
+      <div class="column">
+        <img src="img/Gallery/John_Eleanor_Small.png" alt="John Wayne talks to Eleanor Hunt" onClick="Open(this)">
+      </div>
+      <div class="column">
+        <img src="img/JW_StolenGoods.png" alt="John Wayne in Stolen Goods" onClick="Open(this)">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<script src="Open.js"></script>
+<script src="main.js"></script>
+
+</html>

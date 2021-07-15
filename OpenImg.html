@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="this is an example of a meta description.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- setting the viewport for responsive design -->
+  <title>Blue Steel Fandom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button id="back" type="button" name="back" onclick="goBack()">Close</button>
+  <button id="previous" type="button" name="previous" onclick="input(37)">Previous</button>
+  <button id="next" type="button" name="next" onclick="input(39)">Next</button>
+  <div class="FullSizeImg" id="FS">
+    <img>
+  </div>
+
+
+  <script>
+  function goBack() {
+    window.history.back();
+  }
+  </script>
+
+</body>
+<script src="Open.js"></script>
+</html>
